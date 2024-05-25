@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/portafolios.png" type="image/x-icon">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Cristian De La Cruz </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">About me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Resume</a></li>
+                    <li><a href="#Portafolio" onclick="seleccionar()">Portafolio</a></li>
+
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/cv.png" alt="">
+            </div>
+            <h1>Cristian De La Cruz</h1>
+            <h2>Licenciado en Sistemas Computacionales Administrativos</h2>
+            <div class="redes">
+                <!-- <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hello! I'm Cristian Eduardo De La Cruz Cárdenas</span> <br>
+                A passionate web developer with a special focus on the latest frameworks and technologies. I graduated
+                with a degree in Computer and Administrative Systems. My experience is centered around creating
+                innovative web applications using tools like React, Laravel, and other cutting-edge technologies. I also
+                have a strong affinity for frontend development and component creation, though I'm no slouch when it
+                comes to backend work either—I have skills in both areas. With over 2 years of experience, I bring a
+                wealth of knowledge and expertise to every project.
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            5 De Junio de 2001
+                        </li>
+                        <li>
+                            <strong>Cellphone</strong>
+                            871 255 5690
+                        </li>
+                        <li>
+                            <strong>Mail</strong>
+                            cristian.cruz05@hotmail.com
+                        </li>
+                        <!-- <li>
+                            <strong>Website</strong>
+                            <a href="https://runnotech.github.io/mx/"> https://runnotech.github.io/mx/</a>
+                        </li> -->
+                        <li>
+                            <strong>Adress</strong>
+                            Torreón Coahuila, MX
+                        </li>
+                        <li>
+                            <strong>Job</strong>
+                            <span>Web Developer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <!-- <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-football"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>ARTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i> 
+                            <span>FREESTYLE</span>
+                        </div>
+                        
+                    </div>
+                </div> -->
+            </div>
+            <!-- <button id="btnDescargar">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button> -->
+
+            <!-- <button id="btnDescargar2">
+                Descargar Carta de presentación <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button> -->
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <!-- <h2>Skills</h2> -->
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3> Skills</h3>
+
+                    <div class="skill">
+                        <span>React JS </span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Laravel </span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>70%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Html & Css</span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>90%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>90%</span>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>80%</span>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>80%</span>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>80%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>90%</span>
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Others Skills</h3>
+
+                    <div class="skill">
+                        <span>MUI </span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dev Express </span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Prime React </span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bulma CSS </span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap </span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>85%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Linux</span>
+                        <div class="barra-skill">
+                            <!-- <div class="progreso">
+                                <span>80%</span>
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+
+                    <div class="item izq">
+                        <h4>High School</h4>
+                        <span class="casa">María Dolores Vigatá de Méndez</span>
+                        <span class="fecha">2013 - 2016</span>
+                        <p>The María Dolores Vigatá de Méndez high school focuses on providing its students with a
+                            comprehensive and high-quality education in office automation, among other areas, so they
+                            can develop the skills and competencies needed to succeed in today's workforce.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Preparatory School</h4>
+                        <span class="casa">Instituto Grecolatino</span>
+                        <span class="fecha">2017 - 2019</span>
+                        <p>The Instituto Grecolatino is a prestigious private educational institution located in
+                            Torreón, Coahuila, Mexico. It focuses on providing a bicultural and bilingual education with
+                            an emphasis on teaching Greek and Latin cultures.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachelor's Degree</h4>
+                        <span class="casa">Escuela de Sistemas UT</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>The School of Systems at the Torreón Unit is a prestigious educational institution in the
+                            region, focusing on practical training and equipping its students in the field of technology
+                            and systems, with an emphasis on the application of knowledge and the comprehensive
+                            development of its students.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Work experience</h3>
+                    <div class="item der">
+                        <h4>Web Developer</h4>
+                        <span class="casa">INTERGAS DEL NORTE - Torreón, Coah</span>
+                        <span class="fecha">from june 2023 a Present</span>
+                        <p>
+                            I currently work as a Junior Developer, focusing on implementing technologies like React and
+                            Laravel. I lead the creation of a comprehensive system for Intergas del Norte, aiming to
+                            optimize the operations of all areas of the company.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Web Developer</h4>
+                        <span class="casa">Runnouni Technology - Torreón, Coah.</span>
+                        <span class="fecha">from December 2021 to June 2023</span>
+                        <p>
+                            I was part of a team at a software development company specializing in creating web
+                            solutions for clients across various sectors. I use a variety of tools and technologies to
+                            design and develop customized web applications that meet our clients' specific needs. My
+                            focus is on working closely with clients to understand their requirements and provide robust
+                            technical solutions that drive their online success.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Area Supervisor</h4>
+                        <span class="casa">GolfStore - Torreón, Coah.</span>
+                        <span class="fecha">from april 2021 to december 2021</span>
+                        <p>I supervised operations at a company specializing in the maintenance and care of golf carts,
+                            ensuring high standards of cleanliness and organization. I led a team to efficiently manage
+                            vehicle fleets, implementing effective procedures to keep the carts in optimal condition. My
+                            focus was on quality customer service and maintaining cleanliness and safety standards in
+                            all operations.
+                        </p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION Portafolio -->
+    <section id="Portafolio" class="Portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <h3>Tip: Swipe over the images</h3>
+
+            <div class="galeria">
+
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Inventario</h3>
+                        <p>PHP & MySQL</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Agenda y Registro de usuarios</h3>
+                        <p>C#</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p12.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema Administrativo para taller</h3>
+                        <p>ASP.NET & Boostrap</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+
+                    <img src="img/pq.jpg" alt="">
+                    <div class="overlay">
+                        <h3>E-Commerce completo</h3>
+                        <p>HTML CSS JAVASCRIPT</p>
+                        <p>PHP & MySQL</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p13.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Landing page empresarial</h3>
+                        <p>HTML CSS JS</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p14.jpg" alt="">
+                    <div class="overlay">
+                        <h3>E-Commerce sin carrito de compras</h3>
+                        <p>HTML CSS JS</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pedidos de Pizza</h3>
+                        <p>Xamarin & SQLite</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p7.jpg" alt="">
+                    <div class="overlay">
+                        <h3>CRUD de Alumnos</h3>
+                        <p>C# .Net Framework & SQLite</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p11.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Calculadora Sencilla</h3>
+                        <p>Android Studio</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p9.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Reporte de Tickets</h3>
+                        <p>Kotlin & FireBase</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p10.jpg" alt="">
+                    <div class="overlay">
+                        <h3>GPS</h3>
+                        <p>Kotlin</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p21.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Conversor de divisas</h3>
+                        <p>Kotlin </p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p15.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Registro de productos</h3>
+                        <p>Android SQLite </p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="proyecto">
+                    <img src="img/p20.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Registro de películas</h3>
+                        <p>Java</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p16.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Cronómetro</h3>
+                        <p>Java</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p18.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de inventario</h3>
+                        <p>Java</p>
+                    </div>
+                </div>
+
+
+
+                <div class="proyecto">
+                    <img src="img/p17.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Registro de personal</h3>
+                        <p>Java </p>
+                    </div>
+                </div>
+
+
+                <div class="proyecto">
+                    <img src="img/p8.jpg" alt="">
+                    <div class="overlay">
+                        <h3>VideoJuego</h3>
+                        <p>Android Studio</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
